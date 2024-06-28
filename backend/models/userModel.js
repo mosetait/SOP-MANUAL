@@ -30,7 +30,7 @@ const userSchema = new mongoose.Schema({
 
   type: {
     type: String,
-    enum: ["stockist" , "oxyMoseta"],
+    enum: ["stockist" , "admin"],
     required: true,
     default: "stockist"
   },
